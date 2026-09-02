@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 W-2 + 1099 Side-Hustle Tax Reserve Kit — $29 Excel Workbook</title>
+  <meta name="description" content="Excel workbook (no macros) for a U.S. sole proprietor with W-2 wages and 1099/gig income. Split-year mileage 72.5¢ then 76¢, OASDI $184,500 offset, quarterly 1040-ES estimates. Version 2026.1. $29. Not tax advice.">
+  <meta name="author" content="Stephen Shortell">
+  <link rel="canonical" href="https://shortelldesigns.github.io/tax-kit-2026/">
+  <meta property="og:title" content="2026 W-2 + 1099 Side-Hustle Tax Reserve Kit — $29">
+  <meta property="og:description" content="Excel workbook with live formulas for W-2 + 1099 bookkeeping, split-year mileage, and 1040-ES tax reserve estimates. Version 2026.1. Not tax advice.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shortelldesigns.github.io/tax-kit-2026/">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site">
+    <div class="brand">
+      <p class="eyebrow">Digital Excel download · Tax year 2026 · Version 2026.1</p>
+      <h1><a href="./">W-2 + 1099 Tax Reserve Kit</a></h1>
+      <p class="tag">Bookkeeping and estimated-tax reserve workbook compiled by Stephen Shortell, sole proprietor.</p>
+    </div>
+    <nav class="primary" aria-label="On this page">
+      <ul>
+        <li><a href="#inside">What’s inside</a></li>
+        <li><a href="#buy">Price</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#sources">IRS / SSA sources</a></li>
+        <li><a href="#disclaimer">Disclaimer</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="content">
+    <h1 class="page">2026 W-2 + 1099 Side-Hustle Bookkeeping + 1040-ES Tax Reserve Kit</h1>
+    <p class="lede">A real Excel workbook for a U.S. sole proprietor who has a W-2 day job and 1099 / gig / freelance income. Live formulas. No macros. One 2026 tax-year file.</p>
+    <div class="hero-meta">
+      <span class="badge">Version 2026.1</span>
+      <span class="badge">$29 USD</span>
+      <span class="badge">No VBA</span>
+      <span class="badge neutral">8 tabs</span>
+      <span class="badge neutral">Not tax advice</span>
+    </div>
+
+    <section id="buy" aria-labelledby="buy-heading">
+      <div class="price-box">
+        <p class="label" id="buy-heading">Price · one-time digital download</p>
+        <p class="amount">$29 <span>USD</span></p>
+        <p class="note">Excel workbook with live formulas. Instant download when checkout is live. No physical shipping. No subscriptions.</p>
+        <a class="btn placeholder" href="#" aria-disabled="true" role="link" id="gumroad-placeholder">Buy on Gumroad — checkout not live yet</a>
+        <p class="placeholder-note">The Gumroad product is not created yet. This button does not take payment and is not a checkout. Do not send money here.</p>
+      </div>
+    </section>
+
+    <p>You type in yellow cells. Totals are formulas. This is a bookkeeping and <strong>estimate</strong> tool — not tax advice, not a filed IRS form, and not a CPA service. Verify figures against IRS publications and your own tax professional before you pay or file.</p>
+
+    <h2 id="inside">What’s in the 8 tabs</h2>
+    <p>Exact sheet names in <code>W2-1099-Side-Hustle-Kit-2026.xlsx</code>:</p>
+    <div class="cards two">
+      <article class="card">
+        <span class="tab-num">Tab 1</span>
+        <h3>Start Here</h3>
+        <p>How to use, disclaimer, version 2026.1, owner profile, named 2026 constants, IRS / SSA links.</p>
+      </article>
+      <article class="card">
+        <span class="tab-num">Tab 2</span>
+        <h3>Income 1099</h3>
+        <p>Date, payer, form type, amount, category, year-to-date running <code>SUM</code>.</p>
+      </article>
+      <article class="card">
+        <span class="tab-num">Tab 3</span>
+        <h3>W-2 Wages</h3>
+        <p>Employer, Box 1 wages, Box 3 Social Security wages; remaining OASDI base so SE Social Security tax is not double-counted against <strong>$184,500</strong>.</p>
+      </article>
+      <article class="card">
+        <span class="tab-num">Tab 4</span>
+        <h3>Schedule C Expenses</h3>
+        <p>Date, vendor, IRS-style category, amount, deductible formula, notes. Meals limited to 50% automatically.</p>
+      </article>
+      <article class="card">
+        <span class="tab-num">Tab 5</span>
+        <h3>Home Office</h3>
+        <p>Simplified ($5 / sq ft, max 300 sq ft) vs actual comparison. You choose one method; the selected method feeds profit.</p>
+      </article>
+      <article class="card">
+        <span class="tab-num">Tab 6</span>
+        <h3>Mileage Log</h3>
+        <p>Date, from, to, business miles, rate used (formula from the trip date), amount, purpose. Split-year rates.</p>
+      </article>
+      <article class="card">
+        <span class="tab-num">Tab 7</span>
+        <h3>Quarterly 1040-ES</h3>
+        <p>SE tax + income tax reserve <strong>estimate</strong>, remaining OASDI base, safe-harbor note, official 2026 due dates.</p>
+      </article>
+      <article class="card">
+        <span class="tab-num">Tab 8</span>
+        <h3>Annual Summary</h3>
+        <p>One screen: profit, estimated tax set-aside, mileage deduction, quarterly totals. Print for your CPA. Do not mail this file to the IRS.</p>
+      </article>
+    </div>
+
+    <h2>2026 figures used in the workbook</h2>
+    <dl class="facts">
+      <div>
+        <dt>OASDI / Social Security wage base</dt>
+        <dd>$184,500</dd>
+      </div>
+      <div>
+        <dt>Mileage Jan 1 – Jun 30, 2026</dt>
+        <dd>72.5 cents / mile</dd>
+      </div>
+      <div>
+        <dt>Mileage Jul 1 – Dec 31, 2026</dt>
+        <dd>76 cents / mile</dd>
+      </div>
+      <div>
+        <dt>SE net-earnings factor</dt>
+        <dd>92.35%</dd>
+      </div>
+      <div>
+        <dt>SE Social Security / Medicare</dt>
+        <dd>12.4% + 2.9%</dd>
+      </div>
+      <div>
+        <dt>Simplified home office</dt>
+        <dd>$5 / sq ft, max 300 sq ft</dd>
+      </div>
+      <div>
+        <dt>1040-ES due dates</dt>
+        <dd>Apr 15, Jun 15, Sep 15, 2026; Jan 15, 2027</dd>
+      </div>
+      <div>
+        <dt>Meals limitation</dt>
+        <dd>50% (general rule)</dd>
+      </div>
+    </dl>
+    <p class="meta">Constants live as named cells on <strong>Start Here</strong>. If IRS or SSA later revises a figure, change the matching parameter cell; dependent formulas update. Sources are listed below. Standard deductions used: Single / MFS $16,100; MFJ / QSS $32,200; Head of household $24,150 (IR-2025-103; Form 1040-ES 2026).</p>
+
+    <h2>How you use it</h2>
+    <ul>
+      <li>Open in Microsoft Excel (Excel 2016 or later; Microsoft 365 preferred). Enable editing if Protected View appears.</li>
+      <li><span class="swatch" aria-hidden="true"></span>Yellow cells with blue font are <strong>inputs</strong>. White cells are formulas. Do not type over formulas.</li>
+      <li>Confirm filing status on <strong>Start Here</strong>. Overwrite sample rows with your 2026 records before relying on totals.</li>
+      <li>Work the sheets in order: income → W-2 → expenses → home office → mileage → quarterly reserve → annual summary.</li>
+      <li>Formulas use standard functions (<code>SUM</code>, <code>SUMIF</code>, <code>IF</code>, <code>ROUND</code>). No VBA, no macros.</li>
+    </ul>
+
+    <div class="callout">
+      <h3>What this kit does not do</h3>
+      <p>State income tax (optional dollar reserve you type); QBI wage / UBIA / specified-service phaseout math (warning only); capital-gain rates; NIIT; AMT; SE health insurance; retirement contribution deductions; most credits; dependents; depreciation schedules; inventory; employees/payroll beyond a W-2 you already received; annualized income installments; farming/fishing 66⅔% estimated-tax rule. It does not file Form 8829, Schedule C, Schedule SE, or Form 1040-ES for you.</p>
+    </div>
+
+    <h2 id="faq">FAQ</h2>
+    <details class="faq-item" open>
+      <summary>Does it need Excel macros?</summary>
+      <div class="answer">
+        <p>No. The workbook is live formulas only — no VBA, no macros. Works in Microsoft Excel. Sample rows ship so you can inspect formulas, including the July 1 mileage-rate switch.</p>
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>Which cells do I type in?</summary>
+      <div class="answer">
+        <p>Yellow cells with blue font are inputs. White cells are formulas. Footer on every sheet: “Not tax advice. Verify with IRS publications and your CPA. © 2026 Stephen Shortell.”</p>
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>What mileage rates does 2026 use?</summary>
+      <div class="answer">
+        <p>Split year. Business standard mileage is <strong>72.5 cents per mile</strong> from January 1 through June 30, 2026 (Notice 2026-10) and <strong>76 cents per mile</strong> from July 1 through December 31, 2026 (Announcement 2026-11 / IRB 2026-29). Enter the trip date; the rate column is a formula.</p>
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>What is the 2026 OASDI wage base in this kit?</summary>
+      <div class="answer">
+        <p><strong>$184,500</strong>, from the SSA contribution and benefit base and Form 1040-ES (2026). Self-employment Social Security tax (12.4%) shares that annual base with your day-job Box 3 Social Security wages. Remaining base (not below zero) is the maximum side-hustle earnings still subject to the 12.4% SE Social Security tax. Medicare (2.9%) has no wage-base cap.</p>
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>Does it calculate state tax or full QBI phaseout?</summary>
+      <div class="answer">
+        <p>No. State income tax is not calculated — you may type an optional state reserve. QBI is a simplified 20% estimate (with a $400 floor if active QBI ≥ $1,000, capped at 20% of taxable income before QBI). Wage / UBIA / specified-service limits on Form 8995-A are not applied; a warning appears if taxable income is above the 2026 Form 8995-A draft thresholds.</p>
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>Is this tax advice or a filed IRS form?</summary>
+      <div class="answer">
+        <p>Neither. Stephen Shortell is not a CPA. The Quarterly 1040-ES tab is an <strong>estimate</strong> of federal self-employment tax and income-tax reserve. Verify every constant against current IRS and SSA pages before you pay or file. Pay estimates via IRS Direct Pay or EFTPS, not through this page.</p>
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>When are 2026 estimated-tax payments due?</summary>
+      <div class="answer">
+        <p>Calendar-year due dates from Form 1040-ES (2026): April 15, 2026; June 15, 2026; September 15, 2026; January 15, 2027. You do not have to make the January 15, 2027 payment if you file the 2026 return by February 1, 2027 and pay the entire balance with the return.</p>
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>What is included in the $29 download?</summary>
+      <div class="answer">
+        <p>One Excel workbook for tax year 2026, eight tabs listed above, plus a how-to with IRS / SSA links inside the paid kit. This public page is the sales listing only. The workbook is not hosted here and is not a free download.</p>
+      </div>
+    </details>
+
+    <h2 id="sources">IRS / SSA sources (no affiliates)</h2>
+    <p>Figures in the kit were compiled from these official pages. Always re-check before you pay or file.</p>
+    <div class="sources">
+      <ul>
+        <li><a href="https://www.irs.gov/pub/irs-pdf/f1040es.pdf">Form 1040-ES (2026) PDF</a></li>
+        <li><a href="https://www.irs.gov/publications/p334">Publication 334 — Tax Guide for Small Business</a></li>
+        <li><a href="https://www.irs.gov/publications/p463">Publication 463 — Travel, Gift, and Car Expenses</a></li>
+        <li><a href="https://www.irs.gov/publications/p505">Publication 505 — Tax Withholding and Estimated Tax</a></li>
+        <li><a href="https://www.irs.gov/publications/p535">Publication 535 — Business Expenses</a></li>
+        <li><a href="https://www.irs.gov/publications/p583">Publication 583 — Starting a Business and Keeping Records</a></li>
+        <li><a href="https://www.irs.gov/publications/p587">Publication 587 — Business Use of Your Home</a></li>
+        <li><a href="https://www.irs.gov/tax-professionals/standard-mileage-rates">IRS standard mileage rates</a></li>
+        <li><a href="https://www.irs.gov/pub/irs-drop/n-26-10.pdf">Notice 2026-10 (H1 mileage)</a></li>
+        <li><a href="https://www.irs.gov/irb/2026-29_irb">IRB 2026-29 / Announcement 2026-11 (H2 mileage)</a></li>
+        <li><a href="https://www.ssa.gov/oact/cola/cbb.html">SSA contribution and benefit base</a></li>
+        <li><a href="https://www.irs.gov/businesses/small-businesses-self-employed/simplified-option-for-home-office-deduction">IRS simplified home-office option</a></li>
+        <li><a href="https://www.irs.gov/payments">IRS payments / Direct Pay</a></li>
+        <li><a href="https://www.irs.gov/forms-pubs/about-schedule-c-form-1040">Schedule C</a> · <a href="https://www.irs.gov/forms-pubs/about-schedule-se-form-1040">Schedule SE</a></li>
+        <li><a href="https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes">Self-employment tax</a> · <a href="https://www.irs.gov/taxtopics/tc560">Topic 560 Additional Medicare Tax</a></li>
+        <li><a href="https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill">IR-2025-103 — 2026 inflation adjustments</a></li>
+      </ul>
+    </div>
+
+    <section id="disclaimer">
+      <div class="callout">
+        <h2>Disclaimer</h2>
+        <p><strong>Not tax advice.</strong> This workbook is a bookkeeping log and an estimate of federal self-employment tax and income-tax reserve. It is not a substitute for IRS forms, IRS publications, or a CPA / enrolled agent who knows your facts. Stephen Shortell is a sole proprietor compiling this kit — not a CPA, not a tax preparer, and not offering a professional tax service.</p>
+        <p>Estimates only. Verify every constant against current IRS and SSA pages before you pay estimated tax or file a return. Safe-harbor notes do not guarantee you will owe nothing at filing. Home-office exclusive-use is a legal test you attest by using the sheet (Publication 587). QBI phaseout, state tax, and several other items are intentionally not fully modeled.</p>
+        <p>No reviews are displayed on this page because there are none to display. No affiliate URLs. No comments, support inbox, or live calls on this site.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site">
+    <div class="inner">
+      <p><strong>2026 W-2 + 1099 Side-Hustle Bookkeeping + 1040-ES Tax Reserve Kit</strong> · Version 2026.1 · $29 USD</p>
+      <p>Compiled by Stephen Shortell, sole proprietor. Digital download: Excel workbook, live formulas, no VBA, 8 tabs.</p>
+      <p><a href="#buy">Price</a> · <a href="#inside">What’s inside</a> · <a href="#faq">FAQ</a> · <a href="#sources">Sources</a></p>
+      <div class="disclaimer">
+        <p>Not tax advice. Verify with IRS publications and your CPA. This page does not take payment. The Gumroad checkout is not live yet.</p>
+        <p>© 2026 Stephen Shortell.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
