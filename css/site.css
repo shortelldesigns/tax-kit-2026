@@ -394,6 +394,39 @@ ol.kit-tabs {
   }
   .price-box .amount { margin: 0.15rem 0; }
   .callout { margin-top: 0.75rem; }
+
+  /* Hub-only v2: button sits under $29 and clears 390×844 */
+  .hub h1.page {
+    font-size: 1.2rem;
+    line-height: 1.25;
+    margin: 0 0 0.25rem;
+  }
+  .hub .lede {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0 0 0.3rem;
+  }
+  .hub .hero-meta .badge.neutral:last-child {
+    display: none; /* drop TY2026 badge — already in eyebrow */
+  }
+  .hub .cta-sub {
+    display: none; /* still available mid-page / FAQ; frees ~40px */
+  }
+  .hub .price-box {
+    padding: 0.65rem 0.75rem 0.7rem;
+  }
+  .hub .price-box .btn {
+    margin-top: 0.25rem;
+  }
+  .hub main {
+    padding-top: 0.55rem;
+  }
+  .hub .primary ul {
+    font-size: 0.82rem;
+    gap: 0.2rem 0.55rem;
+  }
 }
 
 .card {
