@@ -378,6 +378,9 @@ ol.kit-tabs {
     font-size: 0.85rem;
     line-height: 1.35;
     margin: 0.1rem 0 0.4rem;
+  }
+  /* Hub-only clamp: tax-season-2027 already PASSes with a full note */
+  .hub .price-box .note {
     /* one beat only on phone */
     display: -webkit-box;
     -webkit-line-clamp: 2;
