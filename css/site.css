@@ -651,3 +651,7 @@ footer.site p { margin: 0 0 0.55rem; }
   font-family: Georgia, "Times New Roman", serif;
   margin: 0 0 0.15rem;
 }
+
+/* Designer pack 2026-10-23: 44px nav taps */
+nav.primary a { display: inline-flex; align-items: center; min-height: 2.75rem; }
+.card h3 a { display: inline-block; padding-block: 0.65rem; margin-block: -0.65rem; }
