@@ -655,3 +655,9 @@ footer.site p { margin: 0 0 0.55rem; }
 /* Designer pack 2026-10-23: 44px nav taps */
 nav.primary a { display: inline-flex; align-items: center; min-height: 2.75rem; }
 .card h3 a { display: inline-block; padding-block: 0.65rem; margin-block: -0.65rem; }
+
+/* Designer pack 2026-10-26: under 640px the 10-link nav is one swipeable row (was 3 rows, pushed the season CTA below the 390 fold) */
+@media (max-width: 639px) {
+  nav.primary ul { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
+  nav.primary li { flex: 0 0 auto; }
+}
