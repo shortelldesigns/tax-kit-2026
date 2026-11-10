@@ -661,3 +661,12 @@ nav.primary a { display: inline-flex; align-items: center; min-height: 2.75rem; 
   nav.primary ul { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
   nav.primary li { flex: 0 0 auto; }
 }
+
+/* Designer iOS-664 fold pack 2026-11-10 */
+@media (max-width: 430px) {
+  h1.page { font-size: 1.15rem; line-height: 1.22; margin: 0 0 0.2rem; }
+  .byline { margin: 0 0 0.35rem; }
+  .hero-meta { margin: 0.45rem 0 0.7rem; }
+  .price-box { padding: 0.55rem 0.7rem 0.65rem; margin-bottom: 0.9rem; }
+  .price-box .amount { font-size: 2rem; }
+}
